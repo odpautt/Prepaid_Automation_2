@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="prueba" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-17T20:27:35" hostname="22LAP5CD1195R94" time="2.14">
+  <properties/>
+  <testcase name="probando" classname="prueba" time="2.14"/>
+  <system-out><![CDATA[URL EPOS  |  URL CRM  |  URL CONFIRMADOR  |  URL GATEWAYCBS  |  URL GATEWAY MG  |  URL DB  |  port  |  Service  |  user  |  password  |  
+http://10.69.60.77:8180/tigo-pos-web/  |  http://10.69.60.85:8280/portal/login?initialURI=%2Fportal%2FCRMPortal  |  http://10.69.60.77:8180/tigo-pos-web/wap/windex.wml  |  http://10.65.45.12:9001/gatewaycbs/BcServicesInt  |  http://10.65.45.12:9001/gatewaymgint/GatewayMGWSInt  |  10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+PLU  |  SERIAL  |  MSIDN  |  10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+3003324  |  8957732111198172294  |  3016877411  |  10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+URL EPOS  |  URL CRM  |  URL CONFIRMADOR  |  URL GATEWAYCBS  |  URL GATEWAY MG  |  URL DB  |  port  |  Service  |  user  |  password  |  
+http://10.69.60.77:8180/tigo-pos-web/  |  http://10.69.60.85:8280/portal/login?initialURI=%2Fportal%2FCRMPortal  |  http://10.69.60.77:8180/tigo-pos-web/wap/windex.wml  |  http://10.65.45.12:9001/gatewaycbs/BcServicesInt  |  http://10.65.45.12:9001/gatewaymgint/GatewayMGWSInt  |  10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+PLU  |  SERIAL  |  MSIDN  |  10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+3003324  |  8957732111198172294  |  3016877411  |  10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+URL EPOS  |  URL CRM  |  URL CONFIRMADOR  |  URL GATEWAYCBS  |  URL GATEWAY MG  |  URL DB  |  port  |  Service  |  user  |  password  |  
+http://10.69.60.77:8180/tigo-pos-web/  |  http://10.69.60.85:8280/portal/login?initialURI=%2Fportal%2FCRMPortal  |  http://10.69.60.77:8180/tigo-pos-web/wap/windex.wml  |  http://10.65.45.12:9001/gatewaycbs/BcServicesInt  |  http://10.65.45.12:9001/gatewaymgint/GatewayMGWSInt  |  10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+PLU  |  SERIAL  |  MSIDN  |  10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+3003324  |  8957732111198172294  |  3016877411  |  10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+CBS  http://10.65.45.12:9001/gatewaycbs/BcServicesInt
+MG  http://10.65.45.12:9001/gatewaycbs/BcServicesInt
+MSISDN  3016877411
+15:27:37.655 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {}->http://10.65.45.12:9001
+15:27:37.662 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to 10.65.45.12:9001
+15:27:37.707 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+15:27:37.708 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+15:27:37.708 [Test worker] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+15:27:37.709 [Test worker] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+15:27:37.709 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+15:27:37.709 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /gatewaycbs/BcServicesInt HTTP/1.1
+15:27:37.709 [Test worker] DEBUG org.apache.http.wire -  >> "POST /gatewaycbs/BcServicesInt HTTP/1.1[\r][\n]"
+15:27:37.710 [Test worker] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+15:27:37.710 [Test worker] DEBUG org.apache.http.wire -  >> "Content-Type: text/xml;charset=UTF-8[\r][\n]"
+15:27:37.710 [Test worker] DEBUG org.apache.http.wire -  >> "Content-Length: 748[\r][\n]"
+15:27:37.710 [Test worker] DEBUG org.apache.http.wire -  >> "Host: 10.65.45.12:9001[\r][\n]"
+15:27:37.710 [Test worker] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+15:27:37.710 [Test worker] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_301)[\r][\n]"
+15:27:37.710 [Test worker] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+15:27:37.710 [Test worker] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+15:27:37.710 [Test worker] DEBUG org.apache.http.headers - >> POST /gatewaycbs/BcServicesInt HTTP/1.1
+15:27:37.710 [Test worker] DEBUG org.apache.http.headers - >> Accept: */*
+15:27:37.710 [Test worker] DEBUG org.apache.http.headers - >> Content-Type: text/xml;charset=UTF-8
+15:27:37.710 [Test worker] DEBUG org.apache.http.headers - >> Content-Length: 748
+15:27:37.711 [Test worker] DEBUG org.apache.http.headers - >> Host: 10.65.45.12:9001
+15:27:37.711 [Test worker] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+15:27:37.711 [Test worker] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.9 (Java/1.8.0_301)
+15:27:37.711 [Test worker] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "<soapenv:Envelope xmlns:bcc="http://www.huawei.com/bme/cbsinterface/bccommon" xmlns:bcs="http://www.huawei.com/bme/cbsinterface/bcservices" xmlns:ws="http://ws.web.gatewaycbs.tigo.com.co/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "   <soapenv:Header/>[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "   <soapenv:Body>[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "      <ws:queryCustomerInfo>[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "         <!--Optional:-->[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "         <QueryCustomerInfoRequest>[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "            <bcs:QueryObj>[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "               <!--Optional:-->[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "               <bcs:SubAccessCode>[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "                  <!--Optional:-->[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "                  <bcc:PrimaryIdentity>3016877411</bcc:PrimaryIdentity>[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "               </bcs:SubAccessCode>[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "            </bcs:QueryObj>[\n]"
+15:27:37.711 [Test worker] DEBUG org.apache.http.wire -  >> "         </QueryCustomerInfoRequest>[\n]"
+15:27:37.712 [Test worker] DEBUG org.apache.http.wire -  >> "      </ws:queryCustomerInfo>[\n]"
+15:27:37.712 [Test worker] DEBUG org.apache.http.wire -  >> "   </soapenv:Body>[\n]"
+15:27:37.712 [Test worker] DEBUG org.apache.http.wire -  >> "</soapenv:Envelope>"
+15:27:37.783 [Test worker] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+15:27:37.785 [Test worker] DEBUG org.apache.http.wire -  << "Date: Mon, 17 Jan 2022 20:27:37 GMT[\r][\n]"
+15:27:37.785 [Test worker] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+15:27:37.785 [Test worker] DEBUG org.apache.http.wire -  << "Content-Type: text/xml; charset=utf-8[\r][\n]"
+15:27:37.785 [Test worker] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:27:37.786 [Test worker] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+15:27:37.786 [Test worker] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+15:27:37.786 [Test worker] DEBUG org.apache.http.headers - << Date: Mon, 17 Jan 2022 20:27:37 GMT
+15:27:37.786 [Test worker] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+15:27:37.786 [Test worker] DEBUG org.apache.http.headers - << Content-Type: text/xml; charset=utf-8
+15:27:37.792 [Test worker] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+15:27:37.804 [Test worker] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: text/xml; charset=utf-8
+15:27:37.804 [Test worker] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+15:27:37.846 [Test worker] DEBUG org.apache.http.wire -  << "006e[\r][\n]"
+15:27:37.846 [Test worker] DEBUG org.apache.http.wire -  << "<?xml version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"><S:Body>"
+15:27:37.847 [Test worker] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:27:37.847 [Test worker] DEBUG org.apache.http.wire -  << "01f8[\r][\n]"
+15:27:37.847 [Test worker] DEBUG org.apache.http.wire -  << "<ns4:queryCustomerInfoResponse xmlns:ns2="http://www.huawei.com/bme/cbsinterface/bccommon" xmlns:ns3="http://www.huawei.com/bme/cbsinterface/bcservices" xmlns:ns4="http://ws.web.gatewaycbs.tigo.com.co/" xmlns:ns5="http://www.huawei.com/bme/cbsinterface/cbscommon"><return><ResultHeader><ns5:Version>1</ns5:Version><ns5:ResultCode>118030260</ns5:ResultCode><ns5:ResultDesc>Subscriber 3016877411 does not exist.</ns5:ResultDesc></ResultHeader></return></ns4:queryCustomerInfoResponse></S:Body></S:Envelope>"
+15:27:37.847 [Test worker] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:27:37.847 [Test worker] DEBUG org.apache.http.wire -  << "0000[\r][\n]"
+15:27:37.847 [Test worker] DEBUG org.apache.http.wire -  << "[\r][\n]"
+15:27:37.847 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6bafba3a
+15:27:37.847 [Test worker] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+URL EPOS  |  URL CRM  |  URL CONFIRMADOR  |  URL GATEWAYCBS  |  URL GATEWAY MG  |  URL DB  |  port  |  Service  |  user  |  password  |  
+http://10.69.60.77:8180/tigo-pos-web/  |  http://10.69.60.85:8280/portal/login?initialURI=%2Fportal%2FCRMPortal  |  http://10.69.60.77:8180/tigo-pos-web/wap/windex.wml  |  http://10.65.45.12:9001/gatewaycbs/BcServicesInt  |  http://10.65.45.12:9001/gatewaymgint/GatewayMGWSInt  |  10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+PLU  |  SERIAL  |  MSIDN  |  10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+3003324  |  8957732111198172294  |  3016877411  |  10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+10.69.60.89  |  1521  |  DEV11G  |  ACTIVATOR  |  ACTIVATOR  |  
+este es el numero 3016877411 que se encuentra en el archivo de excel
+15:27:37.876 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Probando
+----------------------------------------------------------------------------?[0m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
